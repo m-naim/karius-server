@@ -1,0 +1,49 @@
+{
+  "name": "to-do",
+  "version": "1.0.0",
+  "description": "to do app. using react and node js.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "deploy" : "vercel deploy --prod"
+  },
+  "author": "naim",
+  "license": "ISC",
+  "dependencies": {
+    "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^1.0.6",
+    "bcryptjs": "^2.4.3",
+    "chartjs-adapter-date-fns": "^2.0.0",
+    "concurrently": "^3.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "find-or-create": "^2.0.0",
+    "heroicons-react": "^1.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^2.2.36",
+    "mongoose": "^5.13.14",
+    "node-cron": "^3.0.0",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "request-promise": "^4.2.6",
+    "session": "^0.1.0",
+    "socket.io": "^2.4.1",
+    "web-push": "^3.4.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.3",
+    "nodemon": "^2.0.15",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.12",
+    "vercel": "^28.5.6"
+  }
+}
