@@ -33,6 +33,7 @@ const app = express();
 
 app.use(cors({
   origin: [
+    'https://karius.vercel.app',
     'https://kareus.vercel.app',
     'https://kareusapp.vercel.app',
     '*',
