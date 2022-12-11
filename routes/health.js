@@ -4,8 +4,8 @@ const express = require('express');
 const router = express.Router();
 
 
-router.get('/health', (req, res) => {
-  res.send( "app is up!");
+router.get('/', (req, res) => {
+  res.send( {health:"app is up!"});
 });
 
 
